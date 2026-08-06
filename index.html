@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Akash Thakur — Data Scientist Portfolio</title>
+<meta name="description" content="Portfolio of Akash Thakur, Data Scientist — Python, SQL, Machine Learning, Power BI." />
+
+<!-- Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (code/data) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a href="#home" class="nav__brand">akash<span>.thakur</span></a>
+  <nav>
+    <ul class="nav__links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+  <!-- TODO: replace with your real resume PDF filename -->
+  <a class="nav__resume" href="resume/akash-thakur.pdf" download>Resume ↓</a>
+</header>
+
+<!-- ============ HERO : query console ============ -->
+<section id="home" class="hero">
+  <div class="hero__console">
+    <div class="console__bar">
+      <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+      <span class="console__title">query.py</span>
+    </div>
+    <div class="console__body">
+      <p class="console__line">
+        <span class="console__prompt">&gt;&gt;&gt;</span>
+        <span id="typed-query" class="console__typed"></span><span class="cursor">▌</span>
+      </p>
+      <div id="query-result" class="console__result"></div>
+    </div>
+  </div>
+
+  <div class="hero__copy">
+    <div class="hero__copy">
+    <div class="hero__photo">
+      <img src="images/my-photo.jpg" alt="Akash Thakur" />
+    </div>
+    <!-- TODO: your name -->
+    <h1 class="hero__name">Akash Thakur</h1>
+    <!-- TODO: your title/role -->
+    <p class="hero__role">Data Scientist &amp; Analyst</p>
+    <!-- TODO: your one-line pitch -->
+    <p class="hero__pitch">Turning raw, messy data into models and dashboards people can actually act on.</p>
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">View Projects</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section">
+  <p class="section__index">01 / about</p>
+  <h2 class="section__title">About Me</h2>
+  <div class="about__grid">
+    <p class="about__text">
+      <!-- TODO: rewrite this in your own words -->
+      Hi, I'm Akash — an aspiring Data Scientist and Data Analyst building a strong foundation in
+      analytics, machine learning, and applied AI. I enjoy taking messy, real-world datasets and
+      turning them into clean pipelines, predictive models, and dashboards that support real
+      decisions. Currently sharpening my skills in Python, SQL, and machine learning, with the goal
+      of becoming an AI &amp; ML engineer who ships systems that solve real problems at scale.
+    </p>
+    <ul class="about__facts">
+      <li><span>Based in</span><strong>Himachal Pradesh, India</strong></li> <!-- TODO -->
+      <li><span>Focus</span><strong>ML · Analytics · BI</strong></li>
+      <li><span>Open to</span><strong>AI/Ml Roles &amp; collab</strong></li>
+      <li><span>Currently</span><strong>Data Scientist</strong></li> <!-- TODO -->
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section">
+  <p class="section__index">02 / skills</p>
+  <h2 class="section__title">Tech Stack</h2>
+
+  <div class="skills__table" role="table" aria-label="Skills by category">
+    <div class="skills__row skills__row--head" role="row">
+      <span role="columnheader">category</span>
+      <span role="columnheader">tools</span>
+    </div>
+
+    <div class="skills__row" role="row">
+      <span role="cell">Languages</span>
+      <span role="cell" class="tags"><i>Python</i><i>SQL</i><i>R</i><i>HTML/CSS</i></span>
+    </div>
+    <div class="skills__row" role="row">
+      <span role="cell">ML &amp; Deep Learning</span>
+      <span role="cell" class="tags"><i>Scikit-learn</i><i>TensorFlow</i><i>PyTorch</i><i>Keras</i></span>
+    </div>
+    <div class="skills__row" role="row">
+      <span role="cell">Data &amp; Viz</span>
+      <span role="cell" class="tags"><i>Pandas</i><i>NumPy</i><i>Power BI</i><i>Matplotlib</i></span>
+    </div>
+    <div class="skills__row" role="row">
+      <span role="cell">Databases</span>
+      <span role="cell" class="tags"><i>MySQL</i><i>SQLite</i></span>
+    </div>
+    <div class="skills__row" role="row">
+      <span role="cell">Tools</span>
+      <span role="cell" class="tags"><i>Git</i><i>GitHub</i><i>VS Code</i><i>Jupyter</i></span>
+    </div>
+    <!-- Add/remove rows freely — keep the two <span> structure per row -->
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="section">
+  <p class="section__index">03 / experience</p>
+  <h2 class="section__title">Experience</h2>
+
+  <div class="timeline">
+    <!-- TODO: duplicate this block for each role, most recent first -->
+    <div class="timeline__item">
+      <p class="timeline__date">MAY 2025 — Present</p>
+      <h3 class="timeline__role">Data Scientist</h3>
+      <p class="timeline__org">Nyuway · Navi Mumbai, Maharashtra</p> <!-- TODO -->
+      <ul class="timeline__points">
+        <li>Architected and built a real-time prompt interception pipeline with
+Planner-Executor agentic patterns — scanning, classifying, and acting on
+AI prompts before they reach LLMs, with branching fallback strategies and
+confidence scoring.</li>
+        <li>Designed stateful, long-running workflows for prompt security enforcement
+across enterprise LLM integrations, implementing retry logic, auditability,
+and human-in-the-loop escalation.</li>
+        <li>Trained and integrated custom AI/ML models for content classification and
+risk detection on unstructured inputs (text, documents, emails).</li>
+        <li>Managed complete backend ownership: system design, API development,
+load testing, and production deployments on Google Kubernetes Engine
+(GKE).</li>
+        <li>Led DevOps infrastructure: CI/CD pipelines (Cloud Build), containerised
+deployments, monitoring (Grafana,Prometheus,OpenTelemetry), and SBOM
+compliance for enterprise readiness.</li>
+        <li>Integrated LLM Guard and Guardrails AI — combining deterministic rules
+with probabilistic AI reasoning for robust prompt security.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section">
+  <p class="section__index">04 / projects</p>
+  <h2 class="section__title"> Personal Projects</h2>
+  <p class="section__sub">A selection of my work — full list on <a href="https://github.com/akashthakur441" target="_blank" rel="noopener">GitHub</a>.</p>
+
+  <div id="project-grid" class="project-grid">
+    <!-- Cards are injected from js/projects.js — edit that file to add/remove projects -->
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section section--contact">
+  <p class="section__index">05 / contact</p>
+  <h2 class="section__title">Let's talk data</h2>
+  <p class="section__sub">Open to any AI/ML Role, freelance analytics work, and interesting collaborations.</p>
+
+  <div class="contact__grid">
+    <!-- TODO: replace every href/value below with your real details -->
+    <a class="contact__card" href="mailto:akashthaakur130@gmail.com">
+      <span class="contact__label">Email</span>
+      <span class="contact__value">akashthaakur130@gmail.com</span>
+    </a>
+    <a class="contact__card" href="https://www.linkedin.com/in/akashthakurr/" target="_blank" rel="noopener">
+      <span class="contact__label">LinkedIn</span>
+      <span class="contact__value">/in/akashthakurr</span>
+    </a>
+    <a class="contact__card" href="https://github.com/akashthakur441" target="_blank" rel="noopener">
+      <span class="contact__label">GitHub</span>
+      <span class="contact__value">@akashthakur441</span>
+    </a>
+    <a class="contact__card" href="tel:+91 86269-82441">
+      <span class="contact__label">Phone</span>
+      <span class="contact__value">+91 86269-82441</span>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Akash Thakur. </p>
+</footer>
+
+<script src="js/projects.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* =========================================================
+   PROJECT LIST
+   Add, remove, or edit entries here — the grid on the page
+   is generated automatically from this array.
+   ========================================================= */
+
+const PROJECTS = [
+  {
+    title: "Netflix Movie Analysis",
+    desc: "Exploratory analysis of Netflix's catalog to uncover content and rating trends.",
+    link: "https://github.com/YOUR-USERNAME/Netflix-Movie-Analaysis"
+  },
+  {
+    title: "Zomato Restaurant Analysis",
+    desc: "Analyzed restaurant data to surface pricing, cuisine, and rating patterns.",
+    link: "https://github.com/YOUR-USERNAME/Zomato-Analaysis"
+  },
+  {
+    title: "Vendor Performance Analysis",
+    desc: "Evaluated vendor data to identify performance gaps and cost-saving opportunities.",
+    link: "https://github.com/YOUR-USERNAME/Vendor-Performance-Analysis-"
+  },
+  {
+    title: "Bank Customer Deposit Prediction",
+    desc: "Built a classification model predicting whether a customer will subscribe to a term deposit.",
+    link: "https://github.com/YOUR-USERNAME/Bank-Customer-Deposit-Prediction"
+  },
+  {
+    title: "Air Quality Index Dashboard",
+    desc: "Interactive Power BI dashboard tracking air quality trends across regions.",
+    link: "https://github.com/YOUR-USERNAME/Air-Quality-Index-Power-BI-Dashboard"
+  },
+  {
+    title: "Telecom Customer Churn Prediction",
+    desc: "Predicted customer churn using classification models to support retention strategy.",
+    link: "https://github.com/YOUR-USERNAME/Telecom-Customer-Churn-Prediction"
+  }
+  // Add more projects by copying a block above and editing the values.
+];
