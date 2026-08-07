@@ -46,10 +46,15 @@ function renderProjects(){
 
   grid.innerHTML = PROJECTS.map((p, i) => `
     <article class="project-card">
-      <p class="project-card__index">${String(i + 1).padStart(2, '0')}</p>
-      <h3 class="project-card__title">${p.title}</h3>
-      <p class="project-card__desc">${p.desc}</p>
-      <a class="project-card__link" href="${p.link}" target="_blank" rel="noopener">View on GitHub →</a>
+      <a href="${p.link}" target="_blank" rel="noopener" class="project-card__imgwrap">
+        <img src="${p.image}" alt="${p.title}" class="project-card__img" onerror="this.parentElement.style.display='none'">
+      </a>
+      <div class="project-card__body">
+        <p class="project-card__index">${String(i + 1).padStart(2, '0')}</p>
+        <h3 class="project-card__title">${p.title}</h3>
+        <p class="project-card__desc">${p.desc}</p>
+        <a class="project-card__link" href="${p.link}" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
     </article>
   `).join('');
 }
