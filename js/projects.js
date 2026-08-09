@@ -10,6 +10,12 @@ const PROJECTS = [
     desc: "Exploratory analysis of Netflix's catalog to uncover content and rating trends.",
     link: "https://github.com/akashthakur441/Netflix-Movie-Analysis",
     image: "images/projects/netflix-analysis.png"
+  },
+    {
+    title: "Medical AI Chatbot",
+    desc: "It is designed to provide general medical information using LLM and Retrieval-Augmented Generation (RAG)",
+    link: "https://github.com/akashthakur441/Medical-AI-Chat-Bot",
+    image: "images/projects/chatbot.png"
   }
   // {
   //   title: "Zomato Restaurant Analysis",
