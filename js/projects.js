@@ -16,6 +16,12 @@ const PROJECTS = [
     desc: "It is designed to provide general medical information using LLM and Retrieval-Augmented Generation (RAG)",
     link: "https://github.com/akashthakur441/Medical-AI-Chat-Bot",
     image: "images/projects/chatbot.png"
+  },
+    {
+    title: "Customer Segmentation Analysis",
+    desc: "Analyzed customer data to identify distinct segments and tailor marketing strategies.",
+    link: "https://github.com/akashthakur441/Customer-Segmentation-Analysis",
+    image: "images/projects/customer-segmentation.png"
   }
   // {
   //   title: "Zomato Restaurant Analysis",
